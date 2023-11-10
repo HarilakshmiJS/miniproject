@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="challenge.css">
+    <title>EcoChallenges - Join Challenges</title>
+</head>
+<body>
+    <main>
+        <section class="challenges-page">
+            <h1>Join Our Challenges</h1>
+            <p>Sign in or create an account to participate in eco-friendly challenges.</p>
+            <form action="sign.php">
+            <div class="form-container">
+                <div class="sign-in-form">
+                    <h2>Sign In</h2>
+                    <form>
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required>
+                        
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+                        
+                        <input type="submit" value="Sign In" class="cta-button">
+                    </form>
+                </div>
+            </div>
+            <div class="form-container">
+                
+                <div class="or-divider">
+                    <span>OR</span>
+                </div>
+            </div>
+            <div class="form-container">
+                
+                <div class="create-account-form">
+                    <h2>Create an Account</h2>
+                    <form action="create.php">
+                        <label for="new-username">Username:</label>
+                        <input type="text" id="new-username" name="new-username" required>
+                        
+                        <label for="new-password">Password:</label>
+                        <input type="password" id="new-password" name="new-password" required>
+                        
+                        <label for="confirm-password">Confirm Password:</label>
+                        <input type="password" id="confirm-password" name="confirm-password" required>
+                        
+                        <input type="submit" value="Create Account" class="cta-button">
+                    </form>
+                </div>
+            </div>
+            <div class="form-container">
+                <div class="challenges-link">
+                    <a href="types_challenge.html" class="cta-button">Challenges</a>
+                </div>
+            </div>
+            </form>
+            
+        </section>
+    </main>
+
+    <footer>
+        <!-- Your footer content here (same as in index.html) -->
+    </footer>
+</body>
+</html>

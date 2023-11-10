@@ -1,0 +1,99 @@
+/* styles.css */
+
+/* Reset some default styles (if needed) */
+
+/* Style the header (as provided in the previous answers) */
+
+/* Style the challenges page */
+.challenges-page {
+    text-align: center;
+    padding: 50px;
+}
+
+.challenges-page h1 {
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+}
+
+.challenges-page p {
+    font-size: 18px;
+    margin: 20px 0;
+    color: rgb(0, 0, 0);
+}
+
+
+
+/* Style the form container */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    
+}
+
+/* Style the sign-in and create account forms */
+.sign-in-form, .create-account-form {
+    background-color: #f7f7f7; /* Light gray background color */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sign-in-form h2, .create-account-form h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.sign-in-form label, .create-account-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.sign-in-form input, .create-account-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the OR divider */
+.or-divider {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Style the submit buttons (using the cta-button style) */
+
+/* Style the footer (as provided in the previous answers) */
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #2ECC71; /* Green button color */
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #27AE60; /* Slightly darker green on hover */
+  }
+
+  .challenges-link 
+  {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  body
+  {
+    background-image: url('https://t3.ftcdn.net/jpg/03/37/68/62/360_F_337686234_LEY9uGWERwyMXM56mlXMEu2QZlKpM5YX.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }

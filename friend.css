@@ -1,0 +1,297 @@
+/* styles.css */
+
+/* Reset some default styles */
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header */
+header {
+   /* Green background color */
+  padding: 10px 0;
+  
+}
+
+/* Style the navigation bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Style the logo */
+.logo img {
+  width: 90px; /* Adjust the width as needed */
+  height: auto;
+  margin-left: 5%;
+}
+
+
+
+/* Style the navigation links */
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #050505;
+  font-weight: bolder;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #070707;
+}
+
+
+/* styles.css */
+
+/* Reset some default styles (if needed) */
+
+/* Style the fixed header */
+#fix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+   /* Add your preferred background color */
+   /* Optional: Add a shadow for the header */
+   /* Ensure the header stays on top of other content */
+}
+
+/* Style the header content as needed */
+#fix nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+#fix .logo img {
+  width: 70px; /* Adjust the logo size as needed */
+}
+
+#fix .nav-links {
+  list-style: none;
+  display: flex;
+}
+
+#fix .nav-links li {
+  margin-right: 20px;
+}
+
+#fix .nav-links a {
+  text-decoration: none;
+  color: #fffcfc; /* Adjust the link color */
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+#fix .nav-links a:hover {
+  color: #007BFF; /* Adjust the hover color */
+}
+
+/* Add styles for your page content, such as padding or margin, to avoid content being hidden by the fixed header. */
+
+
+
+
+
+
+/* styles.css */
+
+/* Reset some default styles */
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header (as provided in the previous answer) */
+
+/* Style the hero section */
+.hero {
+  background: url('https://dannyking23.files.wordpress.com/2014/03/nature-and-technology1.jpg?w=590') center/cover no-repeat; /* Use an attractive background image */
+  /*background-color: #00ff2a;*/
+  color: #ffffff;
+  text-align: center;
+  padding: 100px 0;
+  height: 500px;
+  font-size: large;
+  font-weight: bolder;
+  
+}
+
+
+
+.hero-content 
+{
+  text-align: center; /* Set text alignment to left */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align items to the left */
+  justify-content: center; /* Align content to the top (left) */
+  height: 70vh; /* Optionally, set a specific height to control the content placement */
+}
+
+/* Style the <h1> and <p> tags as needed */
+.hero-content h1 {
+  font-size: 50px;
+  /* Additional styles for <h1> */
+  color: #024202;
+}
+
+.hero-content p {
+  font-size: 30px;
+  /* Additional styles for <p> */
+}
+
+
+
+.cta-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #0aec68; /* Green button color */
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #27AE60; /* Slightly darker green on hover */
+}
+
+/* Style the challenges section */
+.challenges 
+{
+  
+  background: url('https://st3.depositphotos.com/1021124/18811/i/450/depositphotos_188114404-stock-photo-abstract-background-texture-abstract-background.jpg') center/cover no-repeat; /* Use an attractive background image */
+  color: #ffffff;
+  text-align: center;
+  padding: 100px 0;
+  height: 500px;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.challenges h2 {
+  font-size: 50px;
+  
+}
+
+.challenges p {
+  font-size: 30px;
+
+  
+}
+
+/* Style individual challenge cards (customize as needed) */
+.challenge-cards {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Style the latest blog section */
+.latest-blog {
+  background-image: url('https://media.licdn.com/dms/image/D5612AQF9njcHbqq0Hg/article-cover_image-shrink_600_2000/0/1689168845312?e=2147483647&v=beta&t=i0cS-lv6NFGs_tJ9Pk1uYs8ri73aLlqvh2ogJg4qkc8'); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  padding: 80px 0;
+  text-align: center;
+  height: 500px;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.latest-blog h2 {
+  font-size: 40px;
+  color: #00ff2a;
+  
+}
+
+.blog-posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* styles.css */
+
+/* Style the footer */
+.footer {
+  background-color: #333; /* Set your preferred background color */
+  color: #fff;
+  padding: 40px 0;
+}
+
+/* Style the container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Style the row and column layout */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.column {
+  flex: 1;
+  margin: 0 10px;
+}
+
+/* Style the social media section */
+.social-media h3 {
+  font-size: 20px;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+}
+
+.social-icons li {
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+}
+
+/* Style the About section */
+.about h3 {
+  font-size: 20px;
+}
+
+.about p {
+  font-size: 16px;
+}
+
+.c-footer--menu-footer--right 
+{
+  margin-left: auto;
+  text-align: center;
+  justify-content: center;
+  color: rgb(239, 234, 234);
+  order: 3;
+}

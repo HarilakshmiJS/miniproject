@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Frontend</title>
+
+<style>
+
+section
+{
+    display:block;
+}
+*
+{
+    margin: 0px;
+}
+
+i.fa-phone 
+{
+   width:50px;
+   height:50px;
+   background-color: rgb(218, 218, 201) ;
+   display:flex;
+   align-items:center;
+   justify-content:space-around;
+   border-radius:51%;
+   box-sizing:border-box;
+}
+.flex-container
+{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    position: -webkit-sticky;
+    position: sticky;
+}
+/* .flex-container>div{
+  padding-bottom: 50px;
+  
+} */
+.navigation
+{
+  display:flex;
+  align-items: center;
+  color: white;
+
+}
+.contact
+{
+  display:flex;
+  align-items: center;
+}
+.header
+{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.main 
+{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.button
+{
+  border-radius: 12px;
+  background-color: #0d7bca;
+  border: black;
+  color: rgb(17, 17, 17);
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.parallax {
+    
+  /* The image used */
+  background-image: url("https://img.freepik.com/premium-vector/fluid-wave-clean-blue-abstract-background-design_358261-31.jpg");
+
+  min-height: 100px;
+ 
+
+  /* Create the parallax scrolling effect */
+  background-attachment:local;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li 
+{
+  float: left;
+}
+
+li a 
+{
+  font-size:30px;
+  display: block;
+  padding: 20px;
+ 
+  color:rgb(250, 247, 247);
+}
+
+
+   .footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #6fd4dd;
+    color: black;
+    text-align: left;
+    height:500px;
+    padding: 70px 50px 50px 50px;
+ }
+ .quantanics
+ {
+  display: flex;
+  flex-direction: column;
+  width:350px;
+  text-align: center;
+  height: 300px;
+ }
+
+ .main {
+    padding:50px 0;
+    background-color:#fff;
+    color:#4b4c4d;
+}
+.main h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:18px;
+}
+.main ul {
+    padding:0;
+    list-style:none;
+    line-height:2;
+    font-size:16px;
+    margin-bottom:0;
+}
+.main1 {
+    padding:50px 0;
+    background-color: #6fd4dd;
+    color:#4b4c4d;
+  }
+
+  .main1 ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:1;
+  }
+  .main1 ul a:hover {
+    opacity:1;
+  }
+  .main1 .item.social {
+    text-align:right;
+  }
+  .main1 ul li a:hover{
+	color: black;
+	padding-left: 10px;
+}
+.copyright
+{
+    display:flex;
+    align-items: center;
+  justify-content: center;
+    background-color: #6fd4dd;
+    color:#4b4c4d;
+        
+   
+    
+}
+</style>
+
+</head>
+<body class="parallax">
+
+  <section>
+    
+  
+  <div class="flex-container" style="position: fixed; top: 0px; width: 100%; background-color:rgb(32 180 217); color: white;">
+    <div>
+ 
+  
+      <img src="https://cdn5.vectorstock.com/i/1000x1000/75/59/world-globe-with-app-icon-business-social-media-vector-1937559.jpg" alt="Trulli" width="100" height="100">
+  
+    </div>
+    <div class="navigation" id="fix" style="color: white;">
+      <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About us">About us</a></li>
+        <li><a href="#Services">Services</a></li>
+        <li><a href="#Contact us">Contact us</a></li>
+        <li><a href="#Clients">Our Clients</a></li>
+      </ul></div>
+
+    <div class="contact"> 
+      <i class="fa fa-phone" style="color:rgb(80, 80, 84);font-size:3rem;"></i>
+     <h3><br>Contact Number: 821 759 3617</br><small><br>  Business hours 9am-5pm</br></small></h3>
+    </div>
+  </div >
+
+  <div style="height:700px;background-color:rgba(24, 95, 100, 0.1);" id="Home">
+  
+  
+  <div class="main"> 
+    <div style="height:600px;font-size:40px">
+    
+      <h><br><strong><br><br><br><br>QUANTANICS TECHSERV LTD</strong></br><br>We bulid products for</br><br>R&D labs, Enterprises, Startups</br></h>
+      <br></br>
+      <button class ="button"><b>Get a Quote</b> <i class="fa fa-angle-double-right" style="color:rgb(42, 43, 44);font-size:1rem;"></i> 
+      </button>
+    
+    
+    </div>
+    </div>
+    </div>
+
+  
+    <div style="height:800px;background-color:rgba(2, 53, 57, 0.1);" class="main" id="About us">
+        
+      <div style="color:rgb(6, 6, 6);font-size: 30px;height:600px;">
+        <h1>ABOUT US</h1><br><br>
+        <table>
+          <tr>
+            <td width="900"> <p style="padding-left: 80px;padding-right: 80px;text-align: left;">Quantanics was founded in 2018 by a group of young and rejuvenated engineers who wanted to prove their stand in Industry 4.0 by making this world a better place to live. Today, Quantanics has established a distinguished reputation by successfully developing intelligent devices and products for several industrial giants and MNCs. We find ourselves in a dominating position among our competitors, majorly because of the medley in our team with strengths in different domains such as Block chain, Internet of Things, Robotics & Automation, AI (Artificial Intelligence), XR (Extended Reality), Big Data & many more. We also developing industrial 3D modules and we providing technical workshops in and around tamil nadu for student, teaching professions and industry professions</p></td>
+            <td><img src="https://static.vecteezy.com/system/resources/previews/004/154/417/original/teamwork-or-team-building-office-business-meeting-conference-and-brainstorming-annual-report-and-statistics-graphics-discussion-and-planning-in-flat-style-free-vector.jpg" width="500" height="400"></td>
+          </table>
+      </div>
+  
+    </div>
+
+    <div style="height:800px;background-color:rgb(231, 248, 249, 0.5);" class="main" id="Services">
+      <div style="color:rgb(6, 6, 6);font-size: 20px;height:600px;">
+        <h1>SERVICES</h1><br><br>
+        <h2>Design & Prototype</h2><br>
+        <p style="padding-left: 100px;padding-right: 100px;">We genuinely believe the potential impact of the Internet of Things will revolutionize profitable commerce worldwide and improve sufficiently our modern lives with intelligent devices. Our principal aim is precisely to contribute positively to this successful revolution by digitizing every material product with our most effective innovative solutions and typically allow them to play a role in economic and social developments. To our loyal customers we mutually pledge moral excellence in everything we typically do, with the fulfilled promise of continuous improvement and an uncompromising commitment to properly represent the distinct best.</p>
+        <h2>Process Management</h2><br>
+        <p style="padding-left: 100px;padding-right: 100px;">We genuinely believe the potential impact of the Internet of Things will revolutionize profitable commerce worldwide and improve sufficiently our modern lives with intelligent devices. Our principal aim is precisely to contribute positively to this successful revolution by digitizing every material product with our most effective innovative solutions and typically allow them to play a role in economic and social developments. To our loyal customers we mutually pledge moral excellence in everything we typically do, with the fulfilled promise of continuous improvement and an uncompromising commitment to properly represent the distinct best.</p>
+        <h2>Time Management</h2><br>
+        <p style="padding-left: 100px;padding-right: 100px;">We genuinely believe the potential impact of the Internet of Things will revolutionize profitable commerce worldwide and improve sufficiently our modern lives with intelligent devices. Our principal aim is precisely to contribute positively to this successful revolution by digitizing every material product with our most effective innovative solutions and typically allow them to play a role in economic and social developments. To our loyal customers we mutually pledge moral excellence in everything we typically do, with the fulfilled promise of continuous improvement and an uncompromising commitment to properly represent the distinct best.</p>
+        </div>
+    </div>
+
+    <div style="height:800px;background-color:rgb(133, 223, 232, 0.1);" class="main" id="Contact us">
+      <div style="color:rgb(6, 6, 6);font-size: 20px;height:500px;">
+      <div>
+      <table>
+      <tr>
+      <td width="500"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.006259403895!2d78.08912692044497!3d9.933436038867058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00cfb144432119%3A0x35b104e88a1bce04!2sQuantanics%20Techserv%20Private%20Limited!5e0!3m2!1sen!2sin!4v1634620232131!5m2!1sen!2sin" width="800" height="500" style="border:0;"></iframe></td>
+      <td width="600"><h1>Quantanics Techserv Pvt Ltd</h1><br><br>
+      <pre style="text-align: left;">     No.206, Vellaikannu Nagar, Theni main road,<br>     Madurai-625016, Tamil Nadu, India.<br>     support@quantanics.com<br>     +91 8217593617<br><br>     © 2021 Copyright: Quantanics TechServ Pvt Ltd. All Rights Reserved.</pre>
+      </td>
+      </tr>
+      </table>
+      </div>
+      </div>
+    </div>
+
+    <div style="height:800px;background-color:rgb(231, 245, 246, 0.5);" class="main" id="Clients">
+      <div style="font-size:35px">
+      <h1>OUR CLIENTS</h1><br>
+      <div><p style="padding-left: 100px;padding-right: 100px;">Our clients are people and organizations with ambition and imagination to unleash the power of IT for their businesses and ideas.</p></div><br>
+      <img src="https://quantanics.in/indexpageimages/img3.jpg" width="800" height="500">
+
+    </div>
+
+
+    </div>
+
+
+</div>
+
+</section>
+<section>
+
+  <div class="main1">
+    <footer>
+        <div class="container">
+            <div class="row"> 
+                <div class="col">
+                  <p>Get connected with us on social networks: </p>
+                </div>
+                <div>
+                    <!--social media-->
+                    <div class="col">
+                        <a href="#"><i class="icon ion-social-facebook"></i></a>
+                        <a href="#"><i class="icon ion-social-twitter"></i></a>
+                        <a href="#"><i class="icon ion-social-youtube"></i></a>
+                        <a href="#"><i class="icon ion-social-instagram"></i></a>
+                        
+                    </div>
+                </div>
+            </div>
+
+                <hr>
+
+            <div class="row">
+                
+
+                <div class="col">
+                    <h3>PRODUCTS</h3>
+                    <ul>
+                        <li><a href="#">Internet of Things</a></li>
+                        <li><a href="#">Machine Learning</a></li>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Artificial Intelligence</a></li>
+                    </ul>
+                </div>
+               
+                <div class="col">
+                    <h3>QUICK LINKS</h3>
+                    <ul>
+                        <li><a href="#">Why Choose Us</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Partners</a></li>
+                        <li><a href="#">Our Customers</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>CONTACT</h3>
+                    <ul>
+                        <li><a href="#">🏠 No.206,Vellaikannu Nagar,<br>
+                            Theni main road,Madurai-625016,India.</a></li>
+                        <li><a href="#">✉️ support@quantanics.in</a></li>
+                        <li><a href="#">☏  +91 7010897188</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+            <hr>
+<div class="copyright">
+<p>© 2021 Copyright: Quantanics TechServ Pvt Ltd,. All Rights Reserved. </p>
+</div>
+    </footer>
+</div>
+  
+      
+</section>
+
+</body>
+</html>

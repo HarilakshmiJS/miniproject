@@ -1,0 +1,70 @@
+main
+{
+    background-image: url('C:\xampp\htdocs\eco\back.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+} 
+.challenges-page {
+    text-align: center;
+    padding: 50px;
+    
+}
+
+.challenges-page h1 {
+    font-size: 32px;
+}
+
+.challenges-page p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+/* Style the challenge list */
+.challenge-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Style individual challenges */
+.challenge {
+    width: 300px;
+    background-color: #f7f7f7; /* Light gray background color */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.challenge-image {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+    width: 100%; /* Set the width to 100% to fit the parent container */
+    max-width: 100%; /* Ensure the image doesn't exceed its natural size */
+    height: auto;
+}
+
+
+.challenge-image img:hover {
+    transform: scale(1.05);
+}
+
+.challenge-details {
+    padding: 20px;
+}
+
+.challenge h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.challenge p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Style the CTA button (using the cta-button style) */
+
+/* Style the footer (as provided in the previous answers) */
+
